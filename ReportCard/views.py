@@ -43,9 +43,9 @@ def Marks(request,student_id):
 
     rank = totalmarks['totalmarks']
     new_rank = 0
-    if rank<300 and rank >=190:
+    if rank<350 and rank >=190:
         new_rank = "Second Division..."
-    elif rank>=300 and rank<500:
+    elif rank>=350 and rank<500:
         new_rank = "First Division..."
     elif rank>=500:
         new_rank = "Top Rank('Marit')..."
